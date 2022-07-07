@@ -38,6 +38,7 @@ app.engine('hbs', engine({
 const urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 // Useless comment
+// Useless comment #2
 
 // defines a route that receives the request to /
 app.get('/', (req, res) => {
