@@ -37,6 +37,7 @@ app.engine('hbs', engine({
 // app.post('/route', urlencodedParser, (req, res) => {}
 const urlencodedParser = bodyParser.urlencoded({ extended: false });
 
+// Useless comment
 
 // defines a route that receives the request to /
 app.get('/', (req, res) => {
